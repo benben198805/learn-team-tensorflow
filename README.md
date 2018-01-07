@@ -14,8 +14,6 @@ Tensorflow Environment Setup
 * Add this command into you environment file
 	- eval $(docker-machine env tensorflow)
 
-* Download resp from github: https://github.com/benben198805/learn-team-tensorflow.git
-
 * Running the Docker container from the TW AI Club repository
 	- `docker run -d -p 8888:8888 -p 6006:6006 -v {your-path}/:/notebooks --name tensorflow gcr.io/tensorflow/tensorflow:1.5.0-rc0-py3`
 	- if you don't have tensorflow docker image, just `docker pull gcr.io/tensorflow/tensorflow:1.5.0-rc0-py3`

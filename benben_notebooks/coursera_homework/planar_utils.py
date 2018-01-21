@@ -31,7 +31,6 @@ def sigmoid(x):
     Return:
     s -- sigmoid(x)
     """
-    print(-x)
     s = 1.0/(1+np.exp(-x))
     
     return s
